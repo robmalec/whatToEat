@@ -60,6 +60,9 @@ public class whatToEat {
 	}
 	public static String printNumParticipants(int partySize)
 	{
+		if (partySize == 1) {
+			return "event for 1 participant, you should serve ";
+		}
 		return "event for " + partySize + " participants, you should serve ";
 	}
 }
