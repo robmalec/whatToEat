@@ -11,6 +11,7 @@ public class whatToEat {
 		int partySize = 0;
 		String result = "";
 		Scanner scn = new Scanner(System.in);
+		
 		try {
 			eventType = scn.next().toCharArray()[0];
 			partySize = scn.nextInt();
